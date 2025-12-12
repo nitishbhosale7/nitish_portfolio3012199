@@ -54,7 +54,7 @@ export default function Hero() {
                         <div className="relative w-64 h-64 md:w-80 md:h-80">
                             <div className="absolute inset-0 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-2xl rotate-6 opacity-20 blur-lg"></div>
                             <div className="relative w-full h-full bg-slate-800 rounded-2xl border border-slate-700 overflow-hidden shadow-2xl">
-                                <img src="/profile.jpg" alt="Nitish Bhosale" className="w-full h-full object-cover" />
+                                <img src="/profile.png" alt="Nitish Bhosale" className="w-full h-full object-cover" />
                             </div>
                         </div>
                     </motion.div>
