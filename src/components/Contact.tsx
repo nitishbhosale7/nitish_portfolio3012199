@@ -45,12 +45,12 @@ export default function Contact() {
                                         <span>nitishbhosale7@gmail.com</span>
                                     </a>
 
-                                    <div className="flex items-center gap-4 text-slate-300">
+                                    <a href="tel:+919156418924" className="flex items-center gap-4 text-slate-300">
                                         <div className="p-3 bg-slate-800 rounded-lg">
                                             <PhoneCall className="h-5 w-5" />
                                         </div>
                                         <span>+91-9156418924</span>
-                                    </div>
+                                    </a>
 
                                     <a href="https://linkedin.com/in/nitishbhosale07" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors">
                                         <div className="p-3 bg-slate-800 rounded-lg">
