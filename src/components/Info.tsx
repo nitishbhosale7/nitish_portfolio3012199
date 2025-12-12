@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import { GraduationCap, Award } from "lucide-react";
 
 const skills = [
-    "JavaScript (ES6+)", "TypeScript", "React", "Next.js",
-    "Node.js", "Express", "PostgreSQL", "MongoDB",
-    "Tailwind CSS", "HTML5/CSS3", "Git", "Docker", "AWS"
+    "JavaScript (ES6+)", "TypeScript", "Salesforce CRM", "Lightning Web Components", "Salesforce Experience Cloud", "React", "Next.js",
+    "Node.js", "Express", "PostgreSQL", "MongoDB", "Python",
+    "Tailwind CSS", "HTML5/CSS3", "Git", "Docker", "Kubernetes"
 ];
 
 const education = [
@@ -18,16 +18,36 @@ const education = [
 ];
 
 const certifications = [
+
     {
-        name: "Full Stack Web Development",
-        issuer: "Udemy",
-        year: "2023",
+        name: "Salesforce Certified Administrator",
+        issuer: "Salesforce",
+        year: "2022",
+    },
+
+    {
+        name: "Salesforce Certified Developer I",
+        issuer: "Salesforce",
+        year: "2022",
     },
     {
-        name: "AWS Certified Cloud Practitioner",
-        issuer: "Amazon Web Services",
-        year: "2024",
+        name: "Salesforce Certified Platform App Builder",
+        issuer: "Salesforce",
+        year: "2023",
+    },
+
+    {
+        name: "Salesforce Certified Experience Cloud Consultant",
+        issuer: "Salesforce",
+        year: "2023",
+    },
+
+    {
+        name: "Salesforce Certified Agentforce Specialist",
+        issuer: "Salesforce",
+        year: "2025",
     }
+
 ];
 
 export default function Info() {
