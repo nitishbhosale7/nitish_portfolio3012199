@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Github, Send } from "lucide-react";
+import { Mail, Linkedin, Github, Send, PhoneCall } from "lucide-react";
 import { useState } from "react";
 
 export default function Contact() {
@@ -47,7 +47,7 @@ export default function Contact() {
 
                                     <div className="flex items-center gap-4 text-slate-300">
                                         <div className="p-3 bg-slate-800 rounded-lg">
-                                            <span className="font-bold text-cyan-500 h-5 w-5 flex items-center justify-center">P</span>
+                                            <PhoneCall className="h-5 w-5" />
                                         </div>
                                         <span>+91-9156418924</span>
                                     </div>
