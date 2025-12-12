@@ -11,12 +11,7 @@ export default function Contact() {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         setIsSubmitting(true);
-        // Simulate API call
-        setTimeout(() => {
-            setIsSubmitting(false);
-            alert("Message sent! (This is a demo)");
-            setFormState({ name: "", email: "", message: "" });
-        }, 1500);
+        window.open(`mailto:nitishbhosale7@gmail.com?subject=${encodeURIComponent(formState.name)}&body=${encodeURIComponent(formState.message)}&cc=${encodeURIComponent(formState.email)}`)
     };
 
     return (
