@@ -57,18 +57,18 @@ export default function Contact() {
                                         <span>+91-9156418924</span>
                                     </div>
 
-                                    <a href="https://linkedin.com/in/nitishbhosale" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors">
+                                    <a href="https://linkedin.com/in/nitishbhosale07" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors">
                                         <div className="p-3 bg-slate-800 rounded-lg">
                                             <Linkedin className="h-5 w-5" />
                                         </div>
                                         <span>/in/nitishbhosale</span>
                                     </a>
 
-                                    <a href="https://github.com/nitishbhosale" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors">
+                                    <a href="https://github.com/nitishbhosale7" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors">
                                         <div className="p-3 bg-slate-800 rounded-lg">
                                             <Github className="h-5 w-5" />
                                         </div>
-                                        <span>@nitishbhosale</span>
+                                        <span>@nitishbhosale7</span>
                                     </a>
                                 </div>
                             </div>
